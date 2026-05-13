@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nova Digital Agency</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<nav>
+    <h2>Nova Digital Agency</h2>
+    <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
+<div class="carousel">
+
+  <div class="track" id="track">
+    <div class="slide"><img src="1.png"></div>
+    <div class="slide"><img src="2.png"></div>
+    <div class="slide"><img src="3.png"></div>
+  </div>
+
+  <button class="btn prev" onclick="prev()">❮</button>
+  <button class="btn next" onclick="next()">❯</button>
+
+</div>
+<section id="home" class="hero">
+    <h1>We build Brands that Grow</h1>
+    <p>Mordern solutions for your Business success</p>
+    <button onclick="scrollToSection('contact')">Get in Touch</button>
+</section>
+<section id="services">
+    <h2>Our Services</h2>
+    <div class="cards">
+        <a href="web-development.html" class="card card-link">
+            <h3>Web Development</h3>
+            <p>Creating stunning and responsive websites to elevate your online presence.</p>
+        </a>
+        <a href="digital-marketing.html" class="card card-link">
+            <h3>Digital Marketing</h3>
+            <p>Boosting your brand's visibility and engagement through strategic marketing campaigns.</p>
+        </a>
+        <a href="graphic-design.html" class="card card-link">
+            <h3>Graphic Design</h3>
+            <p>Crafting visually appealing designs that capture your brand's essence.</p>
+        </a>
+
+    </div>
+</section>
+<section id="portfolio">
+    <h2>Our Work</h2>
+    <div class="cards2">
+        <div class="portfolio-card">
+            <img src="https://tse2.mm.bing.net/th/id/OIP.zPB5x7fHDvKqdmH-chCd3QHaEW?r=0&w=850&h=500&rs=1&pid=ImgDetMain&o=7&rm=3" alt="Project 1">
+            <div class="portfolio-content">
+                <h3>Project 1</h3>
+                <p>E-Commerce Platform</p>
+            </div>
+        </div>
+        <div class="portfolio-card">
+            <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=400&h=250&fit=crop" alt="Project 2">
+            <div class="portfolio-content">
+                <h3>Project 2</h3>
+                <p>Corporate Website</p>
+            </div>
+        </div>
+        <div class="portfolio-card">
+            <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=400&h=250&fit=crop" alt="Project 3">
+            <div class="portfolio-content">
+                <h3>Project 3</h3>
+                <p>SaaS Dashboard</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="reviews" class="reviews-section">
+    <h2>Customer Reviews</h2>
+    <p class="section-subtitle">What our clients say about us</p>
+    <div class="reviews-grid">
+        <div class="review-card">
+            <div class="stars">⭐⭐⭐⭐⭐</div>
+            <p class="review-text">"Nova Digital Agency completely transformed our online presence. Their team was professional, creative, and delivered beyond expectations. Highly recommended!"</p>
+            <p class="review-author">— Sarah Johnson, CEO at TechStart Inc.</p>
+        </div>
+        <div class="review-card">
+            <div class="stars">⭐⭐⭐⭐⭐</div>
+            <p class="review-text">"The digital marketing campaign they created for us increased our sales by 300%. Their data-driven approach and strategic insights are unmatched."</p>
+            <p class="review-author">— Michael Chen, Founder of EcoShop</p>
+        </div>
+        <div class="review-card">
+            <div class="stars">⭐⭐⭐⭐⭐</div>
+            <p class="review-text">"Outstanding graphic design work! The team understood our brand vision perfectly and created stunning visuals that our customers love."</p>
+            <p class="review-author">— Emily Rodriguez, Marketing Director at BrandCo</p>
+        </div>
+        <div class="review-card">
+            <div class="stars">⭐⭐⭐⭐⭐</div>
+            <p class="review-text">"We've worked with several agencies before, but Nova stands out. Their communication, attention to detail, and final results were exceptional."</p>
+            <p class="review-author">— David Thompson, Business Owner</p>
+        </div>
+    </div>
+</section>
+<section id="contact">
+    <h2>Get in Touch</h2>
+    <p class="section-subtitle">We'd love to hear from you. Reach out to us through any of these channels.</p>
+    
+    <div class="contact-info-row">
+        <div class="info-item">
+            <div class="info-icon">📧</div>
+            <h3>Email</h3>
+            <p><a href="mailto:info@novaagency.com">info@novaagency.com</a></p>
+        </div>
+        <div class="info-item">
+            <div class="info-icon">📞</div>
+            <h3>Phone</h3>
+            <p><a href="tel:+1234567890">+1 (234) 567-890</a></p>
+        </div>
+        <div class="info-item">
+            <div class="info-icon">📍</div>
+            <h3>Office Address</h3>
+            <p>123 Tech Avenue, Silicon Valley, CA 94025, United States</p>
+        </div>
+    </div>
+
+    <div class="map-row">
+        <div class="map-container">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3169.0739999999998!2d-122.04!3d37.39!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808f5d5e5e5e5e5d%3A0x5e5e5e5e5e5e5e5e!2s123%20Tech%20Avenue%2C%20Silicon%20Valley%2C%20CA%2094025!5e0!3m2!1sen!2sus!4v1234567890" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+
+    <div class="form-wrapper">
+        <h3 style="color: #fff; margin-bottom: 30px;">Send us a Message</h3>
+        <form id="contactForm">
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="tel" id="phone" placeholder="Your Phone Number" required>
+            <input type="email" id="email" placeholder="Your Email" required>
+            <input type="text" id="address" placeholder="Your Address" required>
+            <textarea id="message" placeholder="Your Message" required></textarea>
+            <p id="error" style="color: #ff6b9d;"></p>
+            <button type="submit">Send Message</button>
+        </form>
+    </div>
+</section>
+<footer>
+    <p>&copy; 2026 Nova Digital Agency. All rights reserved.</p>    
+</footer>
+    <script src="script-v2.js?v=1"></script>
+</body>
+</html>

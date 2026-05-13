@@ -17,10 +17,7 @@ This repository contains the `NOVA/` project, a small web application with HTML,
 - `NOVA/DATABASE_SETUP.md`
 - `NOVA/1.png`, `NOVA/2.png`, `NOVA/3.png`, `NOVA/bg.jpg`
 
-## Notes
 
-- The root repository intentionally ignores the nested `first-ng-app/` and `Xorvia/` projects.
-- This repo is intended to track only the `NOVA/` folder.
 
 ## Usage
 

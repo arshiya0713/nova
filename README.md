@@ -19,6 +19,4 @@ This repository contains the `NOVA/` project, a small web application with HTML,
 
 
 
-## Usage
 
-Open `NOVA/index.html` in a browser or deploy the `NOVA/` folder to a PHP-capable web server for full functionality.
